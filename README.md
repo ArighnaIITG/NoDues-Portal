@@ -1,6 +1,6 @@
 # No Dues Automation Portal
 
-Clone the repository using git clone https://github.com/piyush-jain1/NoDuesPortal
+Clone the repository using git clone https://github.com/ArighnaIITG/NoDues-Portal
 
 This is a quick guide on how to use this system.
 
@@ -29,11 +29,11 @@ You can change both the lists at any time.
 **Features** :
 * The login authentication system has all error handling features, like for wrong credentials, it will prompt the user. Also, if you give wrong role,you will be prompted for the same.
 * We have tried to resemble the UI of the system as per the websites of IIT Guwahati.
-* The system follows complete heirarchy law. It means that it follows the constraints like Warden can't give clearance until caretaker has not given the clearance to a particular student, similarly HOD can't give clearance until all the faculties of the department have not given the clearance.
-* The system also ensures reverse heirarchy, like , for exapmle, a student has got clearance from caretaker and then the warden, but after that, the caretaker changes his take and marks him dues, then it will automatically mark him 'Due' for all above his heirarchy(like warden).
+* The system follows **complete hierarchy law**. It means that it follows the constraints like Warden can't give clearance until the caretaker has not given the clearance to a particular student. Similarly, the HOD of a particular department can't give clearance until all the faculties of the department have not given the clearance to the concerned student.
+* The system also ensures **reverse heirarchy**, like , for example, a student has got clearance from caretaker and then the warden, but after that, the caretaker changes his take and marks him `Due`, then it will automatically mark him 'Due' for all the fields, above the hierarchy(like Warden).
 
 NOTE : 
-* All dummy passwords have been initialized as : `csepassword`
+* All dummy passwords have been initialized as : `password`
 * Access to admin panel :  Username : `admin`
 
 
